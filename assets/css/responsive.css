@@ -28,7 +28,7 @@
         padding-bottom: 20px;
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0);
     }
-    
+
     .motto .col-md-3 {
         display: none;
     }
@@ -62,6 +62,7 @@
     .row.row-akumulasi {
         margin-left: 0px;
         margin-top: 0px;
+        margin-right: 0px;
     }
 
     .row.row-akumulasi .card {
@@ -139,7 +140,16 @@
 
     #tkb-resp {
         display: inline;
-        left: 191px;
+        left: 10px;
+        font-size: 12px;
+        opacity: 10;
+        color: #98B825;
+        font-weight: 500;
+        background-color: white;
+        padding: 2px 10px;
+        position: relative;
+        z-index: 1;
+        border-radius: 50px
     }
 
     #tkb {
