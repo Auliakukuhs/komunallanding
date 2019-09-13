@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img//apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img//favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Komunal | Tumbuh Bersama Komunitas
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/komunal-landing.css" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <link href="../assets/css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="landing-page sidebar-collapse">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="../index.html" rel="tooltip"  data-placement="bottom">
+                    <img src="../assets/img/logo-komunal-white.png" alt="Komunal" style="width:100px">
+                </a>
+                <div class="col-sm text-right">
+                    <span id="tkb-resp"
+                        style="opacity: 10; ;color: #98B825;font-weight: 500;background-color: white;padding: 5px 20px;position: relative;z-index: 1;border-radius: 50px">
+                        <b>TKB : 100%</b></span>
+                </div>
+                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link" id="tkb" style="opacity: 10; ;color: #98B825;"
+                            data-toggle="tooltip" data-placement="top"
+                            title="Tingkat Keberhasilan 90 atau disingkat TKB90 merupakan tingkat keberhasilan penyelenggara P2P Lending dalam memfasilitasi penyelesaian kewajiban pinjam meminjam antara peminjam kepada pemberi dana dalam jangka waktu sampai dengan 90 hari sejak jatuh tempo.">
+                            <b>TKB: 100%</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link nav-effect">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pendanaan.html" class="nav-link  nav-effect">Pendanaan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pinjaman.html" class="nav-link nav-effect">Pinjaman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="faq.html" class="nav-link navactive">FAQ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Tentang Kami
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="profil.html">Profil</a>
+                            <a class="dropdown-item" href="karir.html">Karir</a>
+                            <a class="dropdown-item" href="hubungikami.html">Hubungi Kami</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://localhost:4200" target="_blank" class="btn btn-primary btn-round"> <img
+                                src="../assets/img/Icon/Icon-49.png" alt="icon-user" width="25px"> Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="main">
+        <!-- Section1 : Siapapun bisa tumbuh -->
+        <div class="section section2 text-center" style="margin-top: 70px">
+            <div class="container">
+                <h2 class="title center-pills">Siapapun Bisa Tumbuh</h2>
+                <p class="p-siapapun center-pills">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sint
+                    tempore officia
+                    reprehenderit maiores aperiam a iste, laborum cupiditate,</p>
+                <div class="input-group mb-3 search-block">
+                    <form id="search_form" class="col-lg-8 col-center">
+                        <input type="text" class="form-control" placeholder="Apa yang ingin anda cari?"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary btn-round button-siap" type="button"
+                                style="cursor: default">Cari Disini</button>
+                            <!-- <input class="btn btn-primary btn-round" type="submit" name="" value="seach"> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Section1 -->
+
+        <div class="section" style="padding-top: 0em">
+            <div class="container fak">
+                <div class="tabs">
+                    <input type="radio" id="tab1" name="tab-control" checked>
+                    <input type="radio" id="tab2" name="tab-control">
+                    <input type="radio" id="tab3" name="tab-control">
+                    <input type="radio" id="tab4" name="tab-control">
+                    <ul id="list-faq">
+                        <li title="Features"><label for="tab1" role="button"><svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10H20C20,13.32 17.32,16 14,16A6,6 0 0,1 8,10A6,6 0 0,1 14,4C14.43,4 14.86,4.05 15.27,4.14L16.88,2.54C15.96,2.18 15,2 14,2M20.59,3.58L14,10.17L11.62,7.79L10.21,9.21L14,13L22,5M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82Z" />
+                                </svg><br><span>Umum</span></label></li>
+                        <li title="Delivery Contents"><label for="tab2" role="button"><svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66 3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88 20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69 22,10.96L21,11.54V16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V10.96C2.7,11.13 2.32,11.14 2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77 13.3,15.76 13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z" />
+                                </svg><br><span>Pemberi Dana</span></label></li>
+                        <li title="Shipping"><label for="tab3" role="button"><svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0 18,20A3,3 0 0,0 21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5 0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1 6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0 0,1 16.5,17A1.5,1.5 0 0,1 18,15.5Z" />
+                                </svg><br><span>Peminjam Dana</span></label></li>
+                    </ul>
+                    <div class="slider">
+                        <div class="indicator"></div>
+                    </div>
+                    <div class="content">
+                        <section>
+                            <h2>Umum</h2>
+                            <div id="accordion">
+                                <div class="well">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link btn-primary" data-toggle="collapse"
+                                                data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                <li class="question">Bagaimana cara kerja Komunal dan bagaimana saya
+                                                    dapat bergabung
+                                                    dengan Komunal?</li>
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordion" style="padding: 0 2.5rem;">
+                                        <div class="content-collapse text-justify">
+                                            <p>Komunal menyediakan platform melalui portal web dan aplikasi mobile
+                                                Komunal dimana anggota Komunal dapat mengajukan pinjaman dan melakukan
+                                                pendanaan pada setiap proyek pinjaman yang telah diseleksi secara ketat
+                                                oleh tim Komunal. Platform Komunal diharapkan dapat memberikan pinjaman
+                                                yang mudah, cepat, namun dengan bunga yang adil dan bersahabat sekaligus
+                                                menyediakan alternatif pendanaan bagi penyedia dana dengan bunga yang
+                                                kompetitif dan resiko seminimal mungkin.</p>
+                                            <p>Anda dapat bergabung dengan Komunal sebagai pendana atau peminjam. Selain
+                                                mendapatkan keuntungan, dengan bergabung bersama Komunal, anda juga akan
+                                                berbagian untuk mengembangkan komunitas demi Indonesia yang lebih baik.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="well">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link btn-primary" data-toggle="collapse"
+                                                data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                <li class="question">Seberapa aman informasi pribadi yang saya berikan
+                                                    kepada Komunal?</li>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby=" headingOne"
+                                        data-parent="#accordion" style="padding: 0 2.5rem;">
+                                        <div class="content-collapse text-justify">
+
+                                            <p>Komunal berkomitmen untuk menjaga keamanan informasi pribadi para anggota
+                                                Komunal dengan berbagai upaya seperti enkripsi data, pembatasan akses
+                                                staff Komunal, perlindungan firewall & antivirus, memilih server
+                                                terkemuka dengan inspeksi dan back-up regular, dan upaya sekuritas
+                                                keamanan lainnya. Untuk keterangan lebih lanjut, dapat melihat kebijakan
+                                                privasi kami.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link btn-primary" data-toggle="collapse"
+                                                data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                <li class="question">Seberapa aman informasi pribadi yang saya berikan
+                                                    kepada Komunal?</li>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby=" headingOne"
+                                        data-parent="#accordion" style="padding: 0 2.5rem;">
+                                        <div class="content-collapse text-justify">
+                                            <p>Komunal berkomitmen untuk menjaga keamanan informasi pribadi para anggota
+                                                Komunal dengan berbagai upaya seperti enkripsi data, pembatasan akses
+                                                staff Komunal, perlindungan firewall & antivirus, memilih server
+                                                terkemuka dengan inspeksi dan back-up regular, dan upaya sekuritas
+                                                keamanan lainnya. Untuk keterangan lebih lanjut, dapat melihat kebijakan
+                                                privasi kami.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <h2>Umum</h2>
+                            <div id="accordion">
+                                <div class="well">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link btn-primary" data-toggle="collapse"
+                                                data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                <li class="question">Bagaimana cara kerja Komunal dan bagaimana saya
+                                                    dapat bergabung
+                                                    dengan Komunal?</li>
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordion" style="padding: 0 2.5rem;">
+                                        <div class="content-collapse text-justify">
+
+                                            <p>Komunal menyediakan platform melalui portal web dan aplikasi mobile
+                                                Komunal dimana anggota Komunal dapat mengajukan pinjaman dan melakukan
+                                                pendanaan pada setiap proyek pinjaman yang telah diseleksi secara ketat
+                                                oleh tim Komunal. Platform Komunal diharapkan dapat memberikan pinjaman
+                                                yang mudah, cepat, namun dengan bunga yang adil dan bersahabat sekaligus
+                                                menyediakan alternatif pendanaan bagi penyedia dana dengan bunga yang
+                                                kompetitif dan resiko seminimal mungkin.</p>
+                                            <p>Anda dapat bergabung dengan Komunal sebagai pendana atau peminjam. Selain
+                                                mendapatkan keuntungan, dengan bergabung bersama Komunal, anda juga akan
+                                                berbagian untuk mengembangkan komunitas demi Indonesia yang lebih baik.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="well">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link btn-primary" data-toggle="collapse"
+                                                data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                <li class="question">Seberapa aman informasi pribadi yang saya berikan
+                                                    kepada Komunal?</li>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby=" headingOne"
+                                        data-parent="#accordion" style="padding: 0 2.5rem;">
+                                        <div class="content-collapse text-justify">
+
+                                            <p>Komunal berkomitmen untuk menjaga keamanan informasi pribadi para anggota
+                                                Komunal dengan berbagai upaya seperti enkripsi data, pembatasan akses
+                                                staff Komunal, perlindungan firewall & antivirus, memilih server
+                                                terkemuka dengan inspeksi dan back-up regular, dan upaya sekuritas
+                                                keamanan lainnya. Untuk keterangan lebih lanjut, dapat melihat kebijakan
+                                                privasi kami.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link btn-primary" data-toggle="collapse"
+                                                data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                <li class="question">Seberapa aman informasi pribadi yang saya berikan
+                                                    kepada Komunal?</li>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby=" headingOne"
+                                        data-parent="#accordion" style="padding: 0 2.5rem;">
+                                        <div class="content-collapse text-justify">
+                                            <p>Komunal berkomitmen untuk menjaga keamanan informasi pribadi para anggota
+                                                Komunal dengan berbagai upaya seperti enkripsi data, pembatasan akses
+                                                staff Komunal, perlindungan firewall & antivirus, memilih server
+                                                terkemuka dengan inspeksi dan back-up regular, dan upaya sekuritas
+                                                keamanan lainnya. Untuk keterangan lebih lanjut, dapat melihat kebijakan
+                                                privasi kami.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <h2>Umum</h2>
+                            <div id="accordion">
+                                <div class="well">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link btn-primary" data-toggle="collapse"
+                                                data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                <li class="question">Bagaimana cara kerja Komunal dan bagaimana saya
+                                                    dapat bergabung
+                                                    dengan Komunal?</li>
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordion" style="padding: 0 2.5rem;">
+                                        <div class="content-collapse text-justify">
+
+                                            <p>Komunal menyediakan platform melalui portal web dan aplikasi mobile
+                                                Komunal dimana anggota Komunal dapat mengajukan pinjaman dan melakukan
+                                                pendanaan pada setiap proyek pinjaman yang telah diseleksi secara ketat
+                                                oleh tim Komunal. Platform Komunal diharapkan dapat memberikan pinjaman
+                                                yang mudah, cepat, namun dengan bunga yang adil dan bersahabat sekaligus
+                                                menyediakan alternatif pendanaan bagi penyedia dana dengan bunga yang
+                                                kompetitif dan resiko seminimal mungkin.</p>
+                                            <p>Anda dapat bergabung dengan Komunal sebagai pendana atau peminjam. Selain
+                                                mendapatkan keuntungan, dengan bergabung bersama Komunal, anda juga akan
+                                                berbagian untuk mengembangkan komunitas demi Indonesia yang lebih baik.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="well">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link btn-primary" data-toggle="collapse"
+                                                data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                <li class="question">Seberapa aman informasi pribadi yang saya berikan
+                                                    kepada Komunal?</li>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby=" headingOne"
+                                        data-parent="#accordion" style="padding: 0 2.5rem;">
+                                        <div class="content-collapse text-justify">
+
+                                            <p>Komunal berkomitmen untuk menjaga keamanan informasi pribadi para anggota
+                                                Komunal dengan berbagai upaya seperti enkripsi data, pembatasan akses
+                                                staff Komunal, perlindungan firewall & antivirus, memilih server
+                                                terkemuka dengan inspeksi dan back-up regular, dan upaya sekuritas
+                                                keamanan lainnya. Untuk keterangan lebih lanjut, dapat melihat kebijakan
+                                                privasi kami.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link btn-primary" data-toggle="collapse"
+                                                data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                <li class="question">Seberapa aman informasi pribadi yang saya berikan
+                                                    kepada Komunal?</li>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby=" headingOne"
+                                        data-parent="#accordion" style="padding: 0 2.5rem;">
+                                        <div class="content-collapse text-justify">
+                                            <p>Komunal berkomitmen untuk menjaga keamanan informasi pribadi para anggota
+                                                Komunal dengan berbagai upaya seperti enkripsi data, pembatasan akses
+                                                staff Komunal, perlindungan firewall & antivirus, memilih server
+                                                terkemuka dengan inspeksi dan back-up regular, dan upaya sekuritas
+                                                keamanan lainnya. Untuk keterangan lebih lanjut, dapat melihat kebijakan
+                                                privasi kami.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER SECTION BRO! -->
+    <footer class="footer" style="border-top: 1px solid #dcdcdc">
+        <!-- Footer Section1 -->
+        <div class="section section-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="logo" src="../assets/img/logo-komunal.png" style="width: 100px;">
+                        <!-- <p class="footer-info">PT. Komunal Finansial Indonessia</p> -->
+                        <address class="footer-info">Jl. Greges No. 3A <br>Sawahan <br>Kec. Sawahan,
+                            Surabaya
+                            <br>Jawa Timur, 60251</address>
+                        <!-- <p class="footer-info">+62 31 9924 3972 <br><a class="a-text" -->
+                        <!-- href="mailto:hello@komunal.co.id">hello@komunal.co.id</a></p> -->
+                        <a class="mfp-plugin popup-gmaps" href="https://goo.gl/maps/2s72NPgeeuM2" target="_blank"
+                            style="color:#6b6d6f;;font-style: italic;font-weight: 500;">Google Map</a>
+                    </div>
+                    <div class="col-md-2">
+                        <h3 class="footer-title">Navigasi</h3>
+                        <a class="footer-info" href="../syaratketentuan.html">Syarat Ketentuan</a>
+                        <br><br>
+                        <a class="footer-info" href="../kebijakanprivasi.html">Kebijakan Privasi</a>
+                        <br><br>
+                        <a class="footer-info" href="hubungikami.html">Hubungi Kami</a>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="footer-title">Ikuti Kami</h3>
+                        <a title="Facebook" data-placement="bottom" href="https://www.facebook.com/komunalfinansial.id"
+                            target="_blank" class="footer-soc-a">
+                            <i class="fa fa-facebook-square fa-2x"></i>
+                            <!-- <p class="d-lg-none">Facebook</p> -->
+                        </a>
+                        <a rel="tooltip" title="Follow us on Instagram" data-placement="bottom"
+                            href="https://www.instagram.com/komunal.id/" target="_blank" class="footer-soc-a">
+                            <i class="fa fa-instagram fa-2x"></i>
+                            <!-- <p class="d-lg-none">Instagram</p> -->
+                        </a>
+                        <a rel="tooltip" title="Facebook" data-placement="bottom"
+                            href="https://www.linkedin.com/company/komunal-id" target="_blank" class="footer-soc-a">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                            <!-- <p class="d-lg-none">LinkedIn+</p> -->
+                        </a>
+                        <a rel="tooltip" title="Follow us on Twitter" data-placement="bottom"
+                            href="https://www.twitter.com/komunal_id" target="_blank" class="footer-soc-a">
+                            <i class="fa fa-twitter fa-2x"></i>
+                            <!-- <p class="d-lg-none">Twitter</p> -->
+                        </a>
+                        <a rel="tooltip" title="Facebook" data-placement="bottom"
+                            href="https://www.youtube.com/channel/UCzdxX1sq7jl4kli5XMzdqvQ" target="_blank"
+                            class="footer-soc-a">
+                            <i class="fa fa-youtube fa-2x"></i>
+                            <!-- <p class="d-lg-none">Youtube</p> -->
+                        </a>
+                        <!-- <div>
+                                    <a href="https://play.google.com/store/apps/details?id=id.co.komunal" target="_blank"
+                                        class="store-logo"><img src="https://komunal.co.id/web_assets/images/App-1.png" width="75%">
+                                    </a>
+            
+                                    <a href="https://apps.apple.com/id/app/komunal/id1459394611?l=id" target="_blank"
+                                        class="store-logo"><img src="https://komunal.co.id/web_assets/images/App-2.png" width="75%">
+                                    </a>
+                                </div> -->
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="footer-title footer-title-terdaftar">Terdaftar dan
+                            diawasi oleh:</h3>
+                        <img src="../assets/img/logo_ojk.png" style="margin: -6px 0px 0px 0px;width: 20%;">
+                        <img src="../assets/img/logo-afpi.png" style="margin: -6px 0px -9px -6px;width: 40%;">
+                        <img src="../assets/img/logo-aftech.jpg" style="margin: -7px 0px 0px -7px;width: 20%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content-navy">
+            <div class="container">
+                <div class="row">
+                    <div class="column col-md-8">
+                        <div class="row help">
+                            <!-- <p>
+                                        <img src="./assets/icon/project/Icon-29.png" class="icon-20">
+                                        <span>Butuh Bantuan ?</span> <br>
+                                        <span>031 9924 3972 | hello@komunal.co.id</span>
+                                    </p> -->
+                            <div class="col-md-3">
+                                <img src="../assets/img/Icon/Icon-29.png" class="icon-50" width="80px">
+                            </div>
+                            <div class="col-md-9" id="contact">
+                                <p>
+                                    <span style="color: #e6b313;
+                                            font-style: italic;
+                                            font-weight: 500;">Butuh Bantuan?</span> <br>
+                                    <span style="color: white;
+                                            font-size: 22px;
+                                            font-weight: 500;">031 9924 3972 | hello@komunal.co.id</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column col-md" style="text-align: right;
+                            margin-top: auto;
+                            margin-bottom: auto;">
+                        <div class="row apps" style="display: table-cell;">
+                            <a href="https://play.google.com/store/apps/details?id=id.co.komunal" target="_blank"
+                                class="store-logo" style="padding-right: 10px;"><img src="../assets/img/App-1.png"
+                                    width="40%">
+                            </a>
+                            <a href="https://apps.apple.com/id/app/komunal/id1459394611?l=id" target="_blank"
+                                class="store-logo"><img src="../assets/img/apple-store.png" width="40%">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="footer-title" style="color: #b7dcfc;">DISCLAIMER RESIKO:</h3>
+                        <ol style="text-align: justify; color: #4269a2; font-size: 11px;font-weight: 500;">
+                            <li>Layanan Pinjam Meminjam Berbasis Teknologi Informasi merupakan kesepakatan perdata
+                                antara
+                                Pemberi Pinjaman dengan Penerima Pinjaman, sehingga segala risiko yang timbul dari
+                                kesepakatan tersebut ditanggung sepenuhnya oleh masing-masing pihak.</li>
+                            <li>Risiko kredit atau gagal bayar ditanggung sepenuhnya oleh Pemberi Pinjaman. Tidak ada
+                                lembaga atau otoritas negara yang bertanggung jawab atas risiko gagal bayar ini.</li>
+                            <li>Penyelenggara dengan persetujuan dari masing-masing Pengguna (Pemberi Pinjaman dan/atau
+                                Penerima Pinjaman) mengakses, memperoleh, menyimpan, mengelola, dan/atau menggunakan
+                                data
+                                pribadi Pengguna ("Pemanfaatan Data") pada atau di dalam benda, perangkat elektronik
+                                (termasuk smartphone atau telepon seluler), perangkat keras (hardware) maupun lunak
+                                (software), dokumen elektronik, aplikasi atau sistem elektronik milik Pengguna atau yang
+                                dikuasai Pengguna, dengan memberitahukan tujuan, batasan, dan mekanisme Pemanfaatan Data
+                                tersebut kepada Pengguna yang bersangkutan sebelum memperoleh persetujuan yang dimaksud.
+                            </li>
+                            <li>Pemberi Pinjaman yang belum memiliki pengetahuan dan pengalaman pinjam meminjam,
+                                disarankan
+                                untuk tidak menggunakan layanan ini.</li>
+                            <li>Penerima Pinjaman harus mempertimbangkan tingkat bunga pinjaman dan biaya lainnya sesuai
+                                dengan kemampuan dalam melunasi pinjaman.</li>
+                            <li>Setiap kecurangan tercatat secara digital di dunia maya dan dapat diketahui masyarakat
+                                luas
+                                di media sosial.</li>
+                            <li>Pengguna harus membaca dan memahami informasi ini sebelum membuat keputusan menjadi
+                                Pemberi
+                                Pinjaman atau Penerima Pinjaman.</li>
+                            <li>Pemerintah yaitu dalam hal ini Otoritas Jasa Keuangan, tidak bertanggung jawab atas
+                                setiap
+                                pelanggaran atau ketidakpatuhan oleh Pengguna, baik Pemberi Pinjaman maupun Penerima
+                                Pinjaman (baik karena kesengajaan atau kelalaian Pengguna) terhadap ketentuan peraturan
+                                perundang-undangan maupun kesepakatan atau perikatan antara Penyelenggara dengan Pemberi
+                                Pinjaman dan/atau Penerima Pinjaman.</li>
+                            <li>Setiap transaksi dan kegiatan pinjam meminjam atau pelaksanaan kesepakatan mengenai
+                                pinjam
+                                meminjam antara atau yang melibatkan Penyelenggara, Pemberi Pinjaman, dan/atau Penerima
+                                Pinjaman wajib dilakukan melalui escrow account dan virtual account sebagaimana yang
+                                diwajibkan berdasarkan Peraturan Otoritas Jasa Keuangan Nomor 77/POJK.01/2016 tentang
+                                Layanan Pinjam Meminjam Uang Berbasis Teknologi Informasi dan pelanggaran atau
+                                ketidakpatuhan terhadap ketentuan tersebut merupakan bukti telah terjadinya pelanggaran
+                                hukum oleh Penyelenggara sehingga Penyelenggara wajib menanggung ganti rugi yang
+                                diderita
+                                oleh masing-masing Pengguna sebagai akibat langsung dari pelanggaran hukum tersebut di
+                                atas
+                                tanpa mengurangi hak Pengguna yang menderita kerugian menurut Kitab Undang-Undang Hukum
+                                Perdata.</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="footer-title"></h3>
+                        <p style="text-align: justify; color: #4269a2; font-size: 11px;font-weight: 500;">PT Komunal
+                            Finansial Indonesia
+                            merupakan badan
+                            hukum yang didirikan
+                            berdasarkan Hukum Republik Indonesia. Berdiri sebagai perusahaan yang telah diatur oleh dan
+                            dalam pengawasan Otoritas Jasa Keuangan (OJK) di Indonesia, Perusahaan menyediakan layanan
+                            interfacing sebagai penghubung pihak yang memberikan pinjaman dan pihak yang membutuhkan
+                            pinjaman meliputi pendanaan dari individu, organisasi, maupun badan hukum kepada individu
+                            atau
+                            badan hukum tertentu. Perusahaan tidak menyediakan segala bentuk saran atau rekomendasi
+                            pendanaan terkait pilihan-pilihan dalam situs ini.</p><br>
+                        <p style="text-align: justify; color: #4269a2; font-size: 11px;font-weight: 500;">Isi dan materi
+                            yang tersedia
+                            pada situs KOMUNAL
+                            dimaksudkan untuk
+                            memberikan informasi dan tidak dianggap sebagai sebuah penawaran, permohonan, undangan,
+                            saran,
+                            maupun rekomendasi untuk menginvestasikan sekuritas, produk pasar modal, atau jasa keuangan
+                            lainya. Perusahaan dalam memberikan jasanya hanya terbatas pada fungsi administratif.</p>
+                        <br>
+                        <p style="text-align: justify; color: #4269a2; font-size: 11px;font-weight: 500;">Pendanaan dan
+                            pinjaman yang
+                            ditempatkan di
+                            rekening KOMUNAL adalah
+                            tidak dan tidak akan dianggap sebagai simpanan yang diselenggarakan oleh Perusahaan seperti
+                            diatur dalam Peraturan Perundang-Undangan tentang Perbankan di Indonesia. Perusahaan atau
+                            setiap
+                            Direktur, Pegawai, Karyawan, Wakil, Afiliasi, atau Agen-Agennya tidak memiliki tanggung
+                            jawab
+                            terkait dengan setiap gangguan atau masalah yang terjadi atau yang dianggap terjadi yang
+                            disebabkan oleh minimnya persiapan atau publikasi dari materi yang tercantum pada situs
+                            Perusahaan.</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <span class="copyright">
+                        © 2019. PT Komunal Finansial Indonesia
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="../assets/js/plugins/bootstrap-switch.js"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+    <script src="../assets/js/plugins/moment.min.js"></script>
+    <script src="../assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+    
+    <script src="../assets/js/komunal.js" type="text/javascript"></script>
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- tooltip -->
+    <script>
+        $('#tkb').tooltip(options);
+    </script>
+</body>
+
+</html>

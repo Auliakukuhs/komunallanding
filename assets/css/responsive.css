@@ -1,0 +1,264 @@
+/* CSS MOBILE FIRST - KOMUNAL */
+@media screen and (max-width: 767px) {
+
+    /* THIS CODE FOR BERANDA */
+    .section.section1 .col-md-7 {
+        text-align: center;
+    }
+
+    .motto .col-md-3 {
+        display: none;
+    }
+
+    .page-header .motto h3::before {
+        height: 4px;
+        width: 32px;
+        background: #9088D1;
+        content: " ";
+        position: absolute;
+        bottom: -10px;
+    }
+
+    .page-header .motto h1::before {
+        display: none;
+    }
+
+    .info.info-home .icon {
+        margin-bottom: 0px;
+        font-size: 50px;
+    }
+
+    .section1 h4 {
+        margin-top: 0px;
+    }
+
+    .section2 h4 {
+        margin-top: 0px;
+    }
+
+    .row.row-akumulasi {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .row.row-akumulasi .card {
+        width: 100%;
+    }
+
+    .null {
+        display: none;
+    }
+
+    .home-card-rem .col-sm-8 {
+        align-self: center;
+    }
+
+    #akumulasi-mobile {
+        display: block;
+    }
+
+    .section-gold {
+        padding-bottom: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #right-hp {
+        text-align: center;
+    }
+
+    #col-keuntungan-4 {
+        display: none;
+    }
+
+    #contact {
+        margin-top: 0px;
+        margin-bottom: auto;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .row.help .col-md-3 {
+        text-align: center;
+    }
+
+    .column.col-md-4 {
+        margin-left: -29px;
+    }
+
+    .motto.pendana .col-md-8 .title-pendanaan {
+        font-size: 3rem;
+        margin-top: 0px;
+        font-weight: 600;
+    }
+
+    .section2 .icon {
+        margin-bottom: 0px;
+        font-size: 50px;
+    }
+
+    .sukubunga {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .hand {
+        margin: 0;
+        margin-right: -15px;
+        position: relative;
+        bottom: -86px;
+        width: 80%;
+    }
+
+    .info-title-hp {
+        font-size: 25px;
+    }
+
+    #tkb-resp {
+        display: inline;
+        left: 191px;
+    }
+
+    #tkb {
+        display: none;
+    }
+
+    .p-siapapun {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+
+    #search_form {
+        width: 100%;
+    }
+
+    .container.con-faq {
+        width: 600px;
+    }
+
+    .container.fak {
+        max-width: 700px;
+    }
+
+    #list-faq {
+        padding: 0;
+    }
+
+    .tabs .slider {
+        width: 0px;
+    }
+
+    .info-profil h3::before {
+        bottom: -14px;
+        left: 229px;
+    }
+
+    .info-profil h3 {
+        padding: 0px;
+    }
+
+    .about-komunal {
+        padding: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .about-komunal h3 {
+        margin-bottom: 30px;
+    }
+
+    .row-tim {
+        padding: 20px;
+        margin-bottom: 30px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 2px 6px 26px #525f7f57;
+    }
+
+    .column-1-4,
+    .column-3-4 {
+        position: relative;
+        float: left;
+    }
+
+    .col-md-4.order-first {
+        text-align: left;
+    }
+
+    .col-md-5.column-tumbuh {
+        padding: 70px;
+    }
+
+    .karir-ok {
+        margin-top: -50px;
+    }
+
+    .column-karir {
+        margin-bottom: 100px;
+    }
+
+    .card.karir {
+        margin: auto;
+        width: 70%;
+    }
+
+    .card-body.card-karir {
+        padding: 25px 25px;
+        margin: 3px 0px;
+    }
+
+    .card-body.card-karir>h5 {
+        margin-top: 20px;
+    }
+
+    .section.section-listjob {
+        padding-top: 0px;
+    }
+
+    .col-desc-career {
+        padding: 0 0 0 20px;
+        text-align: justify;
+        border-left: 1px solid aqua;
+    }
+
+    .req-job {
+        padding-left: 16px;
+    }
+
+    .judul-job {
+        margin-top: 12px;
+    }
+
+    .section-layanan p {
+        margin-bottom: 50px;
+    }
+
+    .layanan-map iframe {
+        margin-bottom: 50px;
+    }
+
+    .section-mekanisme p {
+        padding-right: 0px;
+    }
+
+    .section-mekanisme svg {
+        margin-bottom: 40px;
+        float: left;
+        margin-right: 30px;
+    }
+
+    .section-mekanisme .catatan {
+        margin-top: 0px;
+    }
+
+    .fitur-layanan .top-line [class*="col-"] {
+        border-bottom: 1px solid aqua;
+        border-right: 0;
+    }
+
+    .fitur-layanan .bottom-line [class*="ml-auto"] {
+        border-bottom: 1px solid aqua;
+        border-right: 0;
+    }
+}
