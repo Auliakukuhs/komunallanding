@@ -106,6 +106,10 @@
         padding: 0;
     }
 
+    .col-md-3.mt-40 {
+        margin-top: 0px;
+    }
+
     .section.section-jenis-pinjaman {
         padding-left: 15px;
         padding-right: 15px;
