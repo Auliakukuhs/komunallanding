@@ -178,6 +178,22 @@
         font-size: 50px;
     }
 
+    .row-tim .nama-tim {
+        text-align: center;
+    }
+
+    .row-tim .jabatan-tim {
+        text-align: center;
+    }
+
+    .foto-tim img {
+        width: 50%;
+    }
+
+    .foto-tim {
+        text-align: center;
+    }
+
     .sukubunga {
         margin-bottom: 30px;
         margin-top: 30px;
@@ -278,7 +294,11 @@
     }
 
     .col-md-4.order-first {
-        text-align: left;
+        text-align: center;
+    }
+
+    .btn-tanya .btn-primary {
+        margin-bottom: 20px;
     }
 
     .col-md-5.column-tumbuh {
