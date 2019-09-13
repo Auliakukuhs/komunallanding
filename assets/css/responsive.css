@@ -10,6 +10,10 @@
         width: 90%;
     }
 
+    .page-header .motto {
+        margin-top: 0px;
+    }
+
     .card.home-card-rem img {
         display: none;
     }
