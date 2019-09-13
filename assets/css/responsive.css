@@ -262,7 +262,7 @@
 
     .info-profil h3::before {
         bottom: -14px;
-        left: 168px;
+        /* left: 168px; */
     }
 
     .info-profil h3 {
