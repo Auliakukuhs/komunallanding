@@ -6349,6 +6349,20 @@ nav.navbar.navbar-expand-lg.fixed-top {
     color: #1b3c6b;
 }
 
+#card-pendanaan-1 {
+    width: 20rem;
+    margin-left: -40px;
+}
+
+#card-pendanaan-2 {
+    width: 20rem;
+}
+
+#card-pendanaan-3 {
+    width: 20rem;
+    margin-left: -80px
+}
+
 .card .card-pendanaan-text {
     font-size: 14px;
     color: #6b6d6f;
@@ -8035,7 +8049,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     padding-right: 50px;
 }
 
-.section.section-kebijakan{
+.section.section-kebijakan {
     padding-top: 0;
 }
 

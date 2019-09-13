@@ -36,7 +36,7 @@
     .page-header .motto h3::before {
         height: 4px;
         width: 32px;
-        background: #9088D1;
+        /* background: #9088D1; */
         content: " ";
         position: absolute;
         bottom: -10px;
@@ -91,9 +91,9 @@
         text-align: center;
     }
 
-    #col-keuntungan-4 {
+    /* #col-keuntungan-4 {
         display: none;
-    }
+    } */
 
     #contact {
         margin-top: 0px;
@@ -111,9 +111,28 @@
     }
 
     .motto.pendana .col-md-8 .title-pendanaan {
-        font-size: 3rem;
-        margin-top: 0px;
-        font-weight: 600;
+        font-size: 27px;
+        /* margin-top: 0px; */
+        /* font-weight: 500; */
+    }
+
+    #card-pendanaan-1 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    #card-pendanaan-2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    #card-pendanaan-3 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #mendanai-opening {
+        margin-bottom: 30px;
     }
 
     .section2 .icon {
@@ -126,16 +145,21 @@
         margin-top: 30px;
     }
 
-    .hand {
+    /* .hand {
         margin: 0;
         margin-right: -15px;
         position: relative;
         bottom: -86px;
         width: 80%;
+    } */
+
+    .hand {
+        display: none;
     }
 
     .info-title-hp {
         font-size: 25px;
+        margin-top: 22px;
     }
 
     #tkb-resp {
@@ -146,7 +170,7 @@
         color: #98B825;
         font-weight: 500;
         background-color: white;
-        padding: 2px 10px;
+        padding: 5px 20px;
         position: relative;
         z-index: 1;
         border-radius: 50px
