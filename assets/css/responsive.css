@@ -110,6 +110,31 @@
         margin-top: 0px;
     }
 
+    .tabs .content section h2 {
+        margin-bottom: 20px;
+    }
+
+    .btn.btn-primary.btn-round.button-siap {
+        text-indent: 5px;
+        width: 115px;
+        height: 58px;
+        position: absolute;
+        right: 14px;
+        top: 0px;
+        border: 0;
+    }
+
+    .search-block form input[type="text"] {
+        background: #FFF9FF;
+        border-radius: 60px;
+        width: 100%;
+        padding: 28px 25px;
+        border: 0;
+        font-size: 16px;
+        font-family: "Montserrat";
+        font-weight: 500;
+    }
+
     .section.section-jenis-pinjaman {
         padding-left: 15px;
         padding-right: 15px;

@@ -7500,8 +7500,16 @@ nav.navbar.navbar-expand-lg.fixed-top {
     border: 0;
 }
 
-.question {
+.tabs .list-pertanyaan .question {
     font-size: 14px;
+    text-align: left;
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs .list-pertanyaan {
+    padding: 0;
 }
 
 .well {
