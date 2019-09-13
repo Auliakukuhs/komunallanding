@@ -1,11 +1,23 @@
 /* CSS MOBILE FIRST - KOMUNAL */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     /* THIS CODE FOR BERANDA */
     .section.section1 .col-md-7 {
         text-align: center;
     }
 
+    .handphone {
+        width: 80%;
+    }
+
+    .card.home-card-rem img {
+        display: none;
+    }
+
+    .row.row-cara-kerja {
+        margin: 0px;
+    }
+    
     .motto .col-md-3 {
         display: none;
     }
