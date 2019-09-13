@@ -102,6 +102,15 @@
         text-align: center;
     }
 
+    #white-ul-content {
+        padding: 0;
+    }
+
+    .section.section-jenis-pinjaman {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .row.help .col-md-3 {
         text-align: center;
     }

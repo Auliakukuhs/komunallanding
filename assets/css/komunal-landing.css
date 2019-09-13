@@ -7352,6 +7352,13 @@ nav.navbar.navbar-expand-lg.fixed-top {
     padding: 5px;
 }
 
+#white-ul-content {
+    padding-right: 15px;
+    padding-left: 77px;
+    padding-bottom: 0px;
+    padding-top: 37px;
+}
+
 .grey-ul {
     color: #6b6d6f;
     font-weight: 600;
