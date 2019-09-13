@@ -1,3 +1,4 @@
+
 .bootstrap-switch {
     display: inline-block;
     direction: ltr;
@@ -4641,7 +4642,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .navbar .navbar-collapse:after {
-    background-color: #FFFCF5;
+    background-color: #1b3c6b;
 }
 
 .navbar #navbarSupportedContent .nav-item {
@@ -4928,6 +4929,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     white-space: nowrap;
     width: 100%;
     display: block;
+
 }
 
 .dropdown-menu .dropdown-item img {
@@ -7361,7 +7363,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
 .grey-ul {
     color: #6b6d6f;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     padding: 5px;
 }
@@ -9296,17 +9298,18 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
     .navbar-collapse .navbar-nav>.nav-item>.nav-link {
         margin: 0px 0px;
-        color: #9A9A9A !important;
+        color: #ffffff !important;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 12px;
         line-height: 1.5em;
         padding: 15px 0;
+    
     }
 
     .navbar-collapse .navbar-nav>.nav-item>.nav-link:hover,
     .navbar-collapse .navbar-nav>.nav-item>.nav-link:active {
-        color: #403D39 !important;
+        color: #fffefc !important;
     }
 
     .navbar-collapse::after {
