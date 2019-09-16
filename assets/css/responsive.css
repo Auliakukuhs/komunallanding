@@ -261,8 +261,13 @@
     }
 
     .info-profil h3::before {
-        bottom: -14px;
-        /* left: 168px; */
+        /* bottom: -14px;
+        left: 168px; */
+        display: none;
+    }
+
+    .nav-effect::after {
+        display: none;
     }
 
     .info-profil h3 {
