@@ -270,6 +270,10 @@
         display: none;
     }
 
+    .btn-pendanaan {
+        width: 70%;
+    }
+
     .info-profil h3 {
         padding: 0px;
     }
