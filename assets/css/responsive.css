@@ -272,7 +272,11 @@
     }
 
     .btn-pendanaan {
-        width: 70%;
+        width: 80%;
+    }
+
+    .form-group.form-group-dana {
+        margin-bottom: 0rem;
     }
 
     .img-simulasi {
