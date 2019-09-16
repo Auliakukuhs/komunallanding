@@ -8614,6 +8614,10 @@ nav.navbar.navbar-expand-lg.fixed-top {
         overflow-y: scroll;
     }
 
+    .page-header.header-filter{
+        transition: 2ms;
+    }
+
     .demo-header .motto {
         padding-top: 30% !important;
     }
