@@ -15,7 +15,8 @@
     }
 
     .card.home-card-rem img {
-        display: none;
+        /* display: none; */
+        width: 90%;
     }
 
     .row.row-cara-kerja {
@@ -272,6 +273,10 @@
 
     .btn-pendanaan {
         width: 70%;
+    }
+
+    .img-simulasi {
+        width: 150%;
     }
 
     .info-profil h3 {
