@@ -2458,7 +2458,7 @@ textarea.form-control {
     border-bottom: none;
 }
 
-.content-collapse p, .content-collapse li {
+.content-collapse p, .content-collapse li, .content-collapse table, .content-collapse td, tr {
     font-weight: 500;
     color: #6b6d6f;
     font-size: 14px;
