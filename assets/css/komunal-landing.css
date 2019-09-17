@@ -2458,10 +2458,11 @@ textarea.form-control {
     border-bottom: none;
 }
 
-.content-collapse p {
+.content-collapse p, .content-collapse li {
     font-weight: 500;
     color: #6b6d6f;
     font: 12px;
+    line-height: 28px;
 }
 
 .from-check,

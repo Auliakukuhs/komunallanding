@@ -404,4 +404,8 @@
         border-bottom: 1px solid aqua;
         border-right: 0;
     }
+
+    .tabs .content section h2::after {
+        background: #9088D1;
+    }
 }
