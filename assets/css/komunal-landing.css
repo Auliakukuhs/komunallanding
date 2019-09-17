@@ -2461,7 +2461,7 @@ textarea.form-control {
 .content-collapse p, .content-collapse li {
     font-weight: 500;
     color: #6b6d6f;
-    font: 12px;
+    font-size: 14px;
     line-height: 28px;
 }
 
