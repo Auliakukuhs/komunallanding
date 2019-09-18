@@ -252,32 +252,5 @@ function kalkulasi_pinjaman() {
         $('#income').text('IDR ' + '0');
     }
 
-    // $bunga = $request['bunga'] / 12 * $request['tenor'];
-    // $getBunga = ($bunga / 100) * $jumlah;
 
-    // if ($request['tipe_pembayaran'] == 'bulanan') {
-    //     $income = ($jumlah + $getBunga) / $request['tenor'];
-    // } else if ($request['tipe_pembayaran'] == 'penuh') {
-    //     $income = $jumlah + $getBunga;
-    // }
-
-    // $('#income').text('IDR ' + );
-
-    // var post = $.post("/kalkulasiPendanaan", {
-    //     jumlah: jumlah,
-    //     bunga: bunga,
-    //     tenor: tenor,
-    //     tipe_pembayaran: tipe_pembayaran,
-    //     _token: '{{csrf_token()}}'
-    // }).done(function (data) {
-    //     response = jQuery.parseJSON(data);
-
-    // $('#income').text('IDR ' + );
-
-    //     if (response.tipe_pembayaran == 'bulanan') {
-    //         $('#judulKalkulasi').text('Perkiraan penerimaan per bulan:');
-    //     } else if (response.tipe_pembayaran == 'penuh') {
-    //         $('#judulKalkulasi').text('Perkiraan penerimaan akhir:');
-    //     }
-    // });
 }
