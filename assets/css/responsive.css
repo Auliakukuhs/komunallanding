@@ -136,6 +136,11 @@
         font-weight: 500;
     }
 
+    .row-profil {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .section.section-jenis-pinjaman {
         padding-left: 15px;
         padding-right: 15px;
@@ -316,11 +321,15 @@
     }
 
     .btn-tanya .btn-primary {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .section.section-footer {
+        padding: 40px 0px;
     }
 
     .col-md-5.column-tumbuh {
-        padding: 70px;
+        padding: 20px 15px;
     }
 
     .karir-ok {
@@ -352,17 +361,19 @@
     .col-desc-career {
         padding: 0px 20px;
         text-align: justify;
-        border-left: 1px solid aqua;
+        background-color: #1b3c6b;
+        box-shadow: cornflowerblue;
+        margin: 20px;
+        border-radius: 22px;
+        color: white;
     }
 
     .dropdown-menu .dropdown-item {
         color: #fff;
-        font-size: 14px;
-        padding: 10px 45px 10px 15px;
-        clear: both;
-        white-space: nowrap;
-        width: 100%;
-        display: block;
+    }
+
+    .grey-ul {
+        padding: 15px;
     }
 
     .req-job {
@@ -370,7 +381,8 @@
     }
 
     .judul-job {
-        margin-top: 12px;
+        margin-top: 16px;
+        color: white;
     }
 
     .section-layanan p {

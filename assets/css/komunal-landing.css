@@ -2458,7 +2458,11 @@ textarea.form-control {
     border-bottom: none;
 }
 
-.content-collapse p, .content-collapse li, .content-collapse table, .content-collapse td, tr {
+.content-collapse p,
+.content-collapse li,
+.content-collapse table,
+.content-collapse td,
+tr {
     font-weight: 500;
     color: #6b6d6f;
     font-size: 14px;
@@ -7368,6 +7372,11 @@ nav.navbar.navbar-expand-lg.fixed-top {
     padding: 5px;
 }
 
+.row-profil {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 .link-job {
     border-bottom: 1px solid aqua;
     font-size: 17px;
@@ -8615,7 +8624,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
         overflow-y: scroll;
     }
 
-    .page-header.header-filter{
+    .page-header.header-filter {
         transition: 2ms;
     }
 
