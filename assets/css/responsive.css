@@ -1,5 +1,5 @@
 /* CSS MOBILE FIRST - KOMUNAL */
-@media screen and (max-width: 768px) {
+@media screen and (min-width:320px) and (max-width: 768px) {
 
     /* THIS CODE FOR BERANDA */
     .section.section1 .col-md-7 {
@@ -422,7 +422,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width:769px) and (max-width: 1024px) {
 
     /* THIS CODE FOR BERANDA */
     .section.section1 .col-md-7 {
@@ -430,7 +430,8 @@
     }
 
     .handphone {
-        width: 90%;
+        width: 100%;
+        margin: 0;
     }
 
     .page-header .motto {
@@ -506,9 +507,8 @@
     }
 
     .section-gold {
-        padding-bottom: 70px;
-        padding-left: 15px;
-        padding-right: 15px;
+        margin-top: 0px;
+        padding: 70px;
     }
 
     #right-hp {
@@ -520,10 +520,14 @@
     }
 
     #contact {
-        margin-top: 0px;
+        margin-top: 19px;
         margin-bottom: auto;
         margin-left: 0px;
         text-align: center;
+    }
+
+    .row.row-jenis img {
+        width: 100px;
     }
 
     #white-ul-content {
@@ -616,11 +620,17 @@
     }
 
     .foto-tim img {
-        width: 50%;
+        width: 90%;
     }
 
     .foto-tim {
         text-align: center;
+        align-self: center;
+    }
+
+    .col-md-5.text-center.align-self-center.btn-tanya button {
+        margin-bottom: 20px;
+        width: 80%;
     }
 
     .sukubunga {
@@ -646,11 +656,21 @@
     }
 
     #tkb-resp {
-        display: none;
+        display: inline;
+        left: 10px;
+        font-size: 12px;
+        opacity: 10;
+        color: #98B825;
+        font-weight: 500;
+        background-color: white;
+        padding: 5px 20px;
+        position: relative;
+        z-index: 1;
+        border-radius: 50px
     }
 
     #tkb {
-        display: block;
+        display: none;
     }
 
     .p-siapapun {
@@ -746,16 +766,17 @@
     }
 
     .karir-ok {
-        margin-top: -50px;
+        margin-top: 0px;
     }
 
     .column-karir {
-        margin-bottom: 100px;
+        margin-bottom: 65px;
+        margin-right: 0px;
     }
 
     .card.karir {
         margin: auto;
-        width: 70%;
+        width: 100%;
     }
 
     .card-body.card-karir {
@@ -772,11 +793,11 @@
     }
 
     .col-desc-career {
-        padding: 0px 20px;
+        padding: 10px 30px;
         text-align: justify;
         background-color: #1b3c6b;
         box-shadow: cornflowerblue;
-        margin: 20px;
+        margin: 20px 0px;
         border-radius: 22px;
         color: white;
     }
@@ -799,7 +820,7 @@
     }
 
     .section-layanan p {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
 
     .layanan-map iframe {
@@ -808,12 +829,13 @@
 
     .section-mekanisme p {
         padding-right: 0px;
+        margin-bottom: 20px;
     }
 
     .section-mekanisme svg {
-        margin-bottom: 40px;
-        float: left;
-        margin-right: 30px;
+        margin-bottom: 20px;
+        float: none;
+        margin-right: 0px;
     }
 
     .section-mekanisme .catatan {
