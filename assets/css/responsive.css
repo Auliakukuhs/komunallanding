@@ -450,7 +450,7 @@
     .card .card-body .card-title2 {
         font-size: 40px;
     }
-    
+
     .card .card-text {
         font-size: 20px;
     }
@@ -854,7 +854,7 @@
         margin-top: 0px;
     }
 
-    .fitur-layanan .top-line [class*="col-"] {
+    /* .fitur-layanan .top-line [class*="col-"] {
         border-bottom: 1px solid aqua;
         border-right: 0;
     }
@@ -862,6 +862,502 @@
     .fitur-layanan .bottom-line [class*="ml-auto"] {
         border-bottom: 1px solid aqua;
         border-right: 0;
+    } */
+
+    .fitur-layanan .bottom-line [class*=col-] {
+        border-bottom: 0px solid aqua !important;
+    }
+
+    .fitur-layanan .container [class*=col-] {
+        border: 1px solid aqua;
+        border-top: 0;
+        border-left: 0;
+    }
+
+    .tabs .content section h2::after {
+        background: #9088D1;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width: 1280px) {
+
+    /* THIS CODE FOR BERANDA */
+    .section.section1 .col-md-7 {
+        text-align: center;
+    }
+
+    .handphone {
+        width: 100%;
+        margin: 0;
+    }
+
+    .page-header .motto {
+        margin-top: 0px;
+    }
+
+    .card.home-card-rem img {
+        /* display: none; */
+        width: 73%;
+    }
+
+    .card .card-body .card-title2 {
+        font-size: 40px;
+    }
+
+    .card .card-text {
+        font-size: 20px;
+    }
+
+    .row.row-cara-kerja {
+        margin: 0px;
+    }
+
+    .container.carakerja {
+        margin-bottom: 5px;
+        padding: 0px;
+        padding-bottom: 20px;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    .motto .col-md-3 {
+        display: none;
+    }
+
+    .page-header .motto h3::before {
+        height: 4px;
+        width: 32px;
+        /* background: #9088D1; */
+        content: " ";
+        position: absolute;
+        bottom: -10px;
+    }
+
+    .page-header .motto h1::before {
+        display: none;
+    }
+
+    .info.info-home .icon {
+        margin-bottom: 0px;
+        font-size: 50px;
+    }
+
+    .section1 h4 {
+        margin-top: 0px;
+    }
+
+    .section2 h4 {
+        margin-top: 0px;
+    }
+
+    .row.row-akumulasi {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .row.row-akumulasi .card {
+        width: 100%;
+    }
+
+    .null {
+        display: none;
+    }
+
+    .home-card-rem .col-sm-8 {
+        align-self: center;
+    }
+
+    #akumulasi-mobile {
+        display: block;
+    }
+
+    .section-gold {
+        margin-top: 0px;
+        padding: 70px;
+    }
+
+    #right-hp {
+        text-align: center;
+    }
+
+    #col-keuntungan-4 {
+        margin-bottom: 30px;
+    }
+
+    #contact {
+        margin-top: 19px;
+        margin-bottom: auto;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .row.row-jenis img {
+        width: 100px;
+    }
+
+    #white-ul-content {
+        padding: 0;
+    }
+
+    .col-md-3.mt-40 {
+        margin-top: 0px;
+    }
+
+    .tabs .content section h2 {
+        margin-bottom: 20px;
+    }
+
+    .btn.btn-primary.btn-round.button-siap {
+        text-indent: 5px;
+        width: 115px;
+        height: 58px;
+        position: absolute;
+        right: 14px;
+        top: 0px;
+        border: 0;
+    }
+
+    .search-block form input[type="text"] {
+        background: #FFF9FF;
+        border-radius: 60px;
+        width: 100%;
+        padding: 28px 25px;
+        border: 0;
+        font-size: 16px;
+        font-family: "Montserrat";
+        font-weight: 500;
+    }
+
+    .row-profil {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .section.section-jenis-pinjaman {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .row.help .col-md-3 {
+        text-align: center;
+    }
+
+    .column.col-md-4 {
+        margin-left: -29px;
+    }
+
+    .motto.pendana .col-md-8 .title-pendanaan {
+        font-size: 27px;
+        /* margin-top: 0px; */
+        /* font-weight: 500; */
+    }
+
+    #card-pendanaan-1 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #card-pendanaan-2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #card-pendanaan-3 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #mendanai-opening {
+        margin-bottom: 30px;
+    }
+
+    .section2 .icon {
+        margin-bottom: 0px;
+        font-size: 50px;
+    }
+
+    .row-tim .nama-tim {
+        text-align: center;
+    }
+
+    .row-tim .jabatan-tim {
+        text-align: center;
+    }
+
+    .foto-tim img {
+        width: 70%;
+    }
+
+    .foto-tim {
+        text-align: center;
+        align-self: center;
+    }
+
+    .col-md-5.text-center.align-self-center.btn-tanya button {
+        margin-bottom: 0px;
+        width: 180px;
+    }
+
+    .sukubunga {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    /* .hand {
+        margin: 0;
+        margin-right: -15px;
+        position: relative;
+        bottom: -86px;
+        width: 80%;
+    } */
+
+    .hand {
+        display: block;
+        margin-right: 100px;
+        margin-left: 209px;
+        width: 200px;
+        margin-top: 42px;
+    }
+
+    #col-keuntungan,
+    #mendanai-opening {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .card .card-pendanaan-text {
+        margin-left: 46px;
+    }
+
+    .card .card-body .card-pendanaan-title {
+        margin: 5px 0 0 0;
+        margin-top: 5px;
+    }
+
+    .info-title-hp {
+        font-size: 25px;
+        margin-top: 22px;
+    }
+
+    #tkb-resp {
+        display: none;
+    }
+
+    #tkb {
+        display: block;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        line-height: 1.6;
+        margin: 15px 3px;
+        padding: 10px 5px;
+    }
+
+    .p-siapapun {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+
+    #search_form {
+        width: 100%;
+    }
+
+    .container.con-faq {
+        width: 600px;
+    }
+
+    .container.fak {
+        max-width: 700px;
+    }
+
+    #list-faq {
+        padding: 0;
+    }
+
+    .tabs .slider {
+        width: 0px;
+    }
+
+    .info-profil h3::before {
+        /* bottom: -14px;
+        left: 168px; */
+        display: none;
+    }
+
+    .nav-effect::after {
+        display: none;
+    }
+
+    .btn-pendanaan {
+        width: 250px;
+    }
+
+    .form-group.form-group-dana {
+        margin-bottom: 0rem;
+    }
+
+    .img-simulasi {
+        width: 150%;
+    }
+
+    .info-profil h3 {
+        padding: 0px;
+    }
+
+    .about-komunal {
+        padding: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .about-komunal h3 {
+        margin-bottom: 30px;
+    }
+
+    .row-tim {
+        padding: 20px;
+        margin-bottom: 30px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 2px 6px 26px #525f7f57;
+    }
+
+    .column-1-4,
+    .column-3-4 {
+        position: relative;
+        float: left;
+    }
+
+    .col-md-4.order-first {
+        text-align: center;
+    }
+
+    .btn-tanya .btn-primary {
+        margin-bottom: 0px;
+    }
+
+    .section.section-footer {
+        padding: 40px 0px;
+    }
+
+    .col-md-5.column-tumbuh {
+        padding: 20px 15px;
+    }
+
+    .karir-ok {
+        margin-top: 0px;
+    }
+
+    .column-karir {
+        margin-bottom: 65px;
+        margin-right: 0px;
+    }
+
+    .card.karir {
+        margin: auto;
+        width: 77%;
+    }
+
+    .card-body.card-karir {
+        padding: 25px 25px;
+        margin: 3px 0px;
+    }
+
+    .card-body.card-karir>h5 {
+        margin-top: 20px;
+    }
+
+    .section.section-listjob {
+        padding-top: 0px;
+    }
+
+    .col-desc-career {
+        padding: 0 0 0 20px;
+        text-align: justify;
+        background-color: #fff;
+        box-shadow: none;
+        margin: 0px;
+        border-radius: 0px;
+        color: #66615B;
+        border-left: 1px aqua solid;
+    }
+
+    .column-tumbuh {
+        padding: 40px;
+    }
+
+    .dropdown-menu .dropdown-item {
+        color: #66615B;
+    }
+
+    #tablet-col-ak {
+        padding: 20px 40px;
+    }
+
+    #col-hp {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        align-self: center;
+    }
+
+    .grey-ul {
+        padding: 15px;
+    }
+
+    .req-job {
+        padding-left: 16px;
+    }
+
+    .judul-job {
+        font-weight: 600;
+        color: #1b3c6b;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .section-layanan p {
+        margin-bottom: 0px;
+    }
+
+    .layanan-map iframe {
+        margin-bottom: 50px;
+    }
+
+    .section-mekanisme p {
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .section-mekanisme svg {
+        margin-bottom: 20px;
+        float: none;
+        margin-right: 0px;
+    }
+
+    .section-mekanisme .catatan {
+        margin-top: 0px;
+    }
+
+    /* .fitur-layanan .top-line [class*="col-"] {
+        border-bottom: 1px solid aqua;
+        border-right: 0;
+    }
+
+    .fitur-layanan .bottom-line [class*="ml-auto"] {
+        border-bottom: 1px solid aqua;
+        border-right: 0;
+    } */
+
+    .fitur-layanan .bottom-line [class*=col-] {
+        border-bottom: 0px solid aqua !important;
+    }
+
+    .fitur-layanan .container [class*=col-] {
+        border: 1px solid aqua;
+        border-top: 0;
+        border-left: 0;
     }
 
     .tabs .content section h2::after {

@@ -7806,6 +7806,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     color: #1b3c6b;
     font-size: 16px;
     margin-bottom: 12px;
+    margin-top: 10px;
 }
 
 .deskripsi-job {
@@ -10212,7 +10213,8 @@ a>.footer-info,
 }
 
 .col-desc-career {
-    padding: 0 0 0 100px;
+    padding: 0 0 0 20px;
+    border-left: 1px aqua solid;
 }
 
 .footer {
