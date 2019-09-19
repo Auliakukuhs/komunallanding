@@ -35,7 +35,7 @@
                 </a>
                 <div class="col-sm text-right">
 
-                    <span id="tkb-resp" class="pulse">
+                    <span id="tkb-resp" class="pulse" data-toggle="modal" data-target="#loginModal">
                         <b>TKB : 100%</b></span>
                 </div>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
@@ -127,6 +127,48 @@
     <!-- End Section -->
 
     <div class="main">
+        <!-- modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="false">
+            <div class="modal-dialog modal-register">
+                <div class="modal-content">
+                    <div class="modal-header no-border-header text-center" style="font-weight: 500">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h6 class="text-muted">TKB90</h6>
+                        <img src="./assets/img/logo_ojk.png" style="margin: -6px 0px 0px 0px;width: 50%;">
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-collapse text-justify" style="font-weight: 500">
+                            <p>Sesuai dengan ketentuan dari OJK, kini, rate ‘TKB90’ dapat Anda temukan
+                                pada bagian kanan atas platform Komunal. Tingkat Keberhasilan 90 atau
+                                disingkat TKB90 merupakan tingkat keberhasilan penyelenggara P2P Lending
+                                dalam memfasilitasi penyelesaian kewajiban pinjam meminjam antara
+                                peminjam kepada pemberi dana dalam jangka waktu sampai dengan 90 hari
+                                sejak jatuh tempo.</p>
+                            <hr>
+                            <br>
+                            <p>Rate TKB90 didapat dari perhitungan sebagai berikut:</p>
+                            <p><b>TKB90= 100% - TWP90 </b></p>
+                            <br>
+                            <hr>
+                            <p>Catatan:</p>
+                            <p>NLP90 merupakan tingkat wanprestasi atau kelalaian penyelesaian
+                                kewajiban yang tertera dalam perjanjian sampai dengan 90 hari sejak
+                                tanggal jatuh tempo.
+                                Perhitungan TWP90:</p>
+                            <p>TWP90= (Outstanding wanprestasi diatas 90 hari / Total
+                                Outstanding) x 100%</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer no-border-footer" style="font-weight: 500">
+                        <span class="text-muted  text-center">Mulai mendanai sekarang dengan klik <a href="#">Ajukan pinjaman</a>
+                            ?</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Section1 : Why Komunal? -->
         <div id="sec1" class="section section1">
             <div class="container">
