@@ -6,7 +6,9 @@
         text-align: center;
     }
 
-    #sec1, #sec2, #sec3 {
+    #sec1,
+    #sec2,
+    #sec3 {
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -986,6 +988,8 @@
     }
 
     #col-keuntungan-4 {
+        flex: 0 0 40%;
+        max-width: 40%;
         margin-bottom: 30px;
     }
 
@@ -1074,6 +1078,8 @@
 
     #mendanai-opening {
         margin-bottom: 30px;
+        flex: 0 0 60%;
+        max-width: 60%;
     }
 
     .section2 .icon {
@@ -1124,11 +1130,10 @@
         margin-top: 42px;
     }
 
-    #col-keuntungan,
-    #mendanai-opening {
+    /* #col-keuntungan {
         flex: 0 0 50%;
         max-width: 50%;
-    }
+    } */
 
     .card .card-pendanaan-text {
         margin-left: 46px;
