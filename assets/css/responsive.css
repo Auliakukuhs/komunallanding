@@ -255,11 +255,11 @@
         opacity: 10;
         color: #fff;
         font-weight: 500;
-        background-color: rgba(15, 35, 109, .2);
-        padding: 5px 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 5px 10px;
         position: relative;
         z-index: 1;
-        border-radius: 50px
+        border-radius: 50px;
     }
 
     .pulse {
@@ -278,17 +278,17 @@
     @keyframes pulse {
         0% {
             transform: scale(0.95);
-            box-shadow: 0 0 0 0 rgba(15, 35, 109, .7)
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, .1)
         }
 
         70% {
             transform: scale(1);
-            box-shadow: 0 0 0 10px rgba(15, 35, 109, 0)
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0)
         }
 
         100% {
             transform: scale(0.95);
-            box-shadow: 0 0 0 0 rgba(15, 35, 109, 0)
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0)
         }
     }
 
