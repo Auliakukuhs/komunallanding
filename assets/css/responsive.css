@@ -6,6 +6,11 @@
         text-align: center;
     }
 
+    #sec1, #sec2, #sec3 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
     .handphone {
         width: 90%;
     }
