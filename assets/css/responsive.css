@@ -21,6 +21,10 @@
         margin-top: 0px;
     }
 
+    #vr, #img-vr {
+        display: none;
+    }
+
     .card.home-card-rem img {
         /* display: none; */
         width: 90%;
@@ -443,6 +447,10 @@
     .handphone {
         width: 100%;
         margin: 0;
+    }
+
+    #vr, #img-vr {
+        display: none;
     }
 
     .page-header .motto {
@@ -896,6 +904,10 @@
     .handphone {
         width: 100%;
         margin: 0;
+    }
+
+    #vr, #img-vr {
+        display: none;
     }
 
     .page-header .motto {
