@@ -328,9 +328,13 @@
         padding: 40px 0px;
     }
 
-    .col-md-5.column-tumbuh {
-        padding: 20px 15px;
+    .column-tumbuh {
+        padding: 20px 15px 20px 15px;
     }
+
+    /* .col-lg-5.col-md-12.column-tumbuh {
+        padding: 40px 40px 40px 150px;
+    } */
 
     .karir-ok {
         margin-top: -50px;
@@ -422,7 +426,7 @@
     }
 }
 
-@media screen and (min-width:769px) and (max-width: 1024px) {
+@media screen and (min-width:768px) and (max-width: 1024px) {
 
     /* THIS CODE FOR BERANDA */
     .section.section1 .col-md-7 {
@@ -440,7 +444,15 @@
 
     .card.home-card-rem img {
         /* display: none; */
-        width: 90%;
+        width: 73%;
+    }
+
+    .card .card-body .card-title2 {
+        font-size: 40px;
+    }
+    
+    .card .card-text {
+        font-size: 20px;
     }
 
     .row.row-cara-kerja {
@@ -710,7 +722,7 @@
     }
 
     .btn-pendanaan {
-        width: 80%;
+        width: 250px;
     }
 
     .form-group.form-group-dana {

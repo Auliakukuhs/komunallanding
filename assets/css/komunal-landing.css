@@ -7734,11 +7734,8 @@ nav.navbar.navbar-expand-lg.fixed-top {
     border-radius: 0;
 }
 
-.col-md-5.column-tumbuh {
-    padding-right: 15px;
-    padding-left: 118px;
-    padding-bottom: 0px;
-    padding-top: 49px;
+.column-tumbuh {
+    padding: 40px 40px 40px 150px;
 }
 
 .card-body.card-karir {
