@@ -93,7 +93,7 @@ $(document).ready(function() {
   }
   // Activate Carousel
   $('.carousel').carousel({
-    interval: 4000
+    interval: 0
   });
 
 });

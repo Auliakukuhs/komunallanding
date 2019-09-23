@@ -18,7 +18,11 @@
     }
 
     .motto.row h3{
-        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .dot {
+        margin-left: 358px;
     }
 
     .carousel-control-prev , .carousel-control-next {
@@ -59,8 +63,12 @@
         display: block;
     }
 
+    .card.only-768 {
+        width: 100% !important;
+    }
+
     #fi-col-6 {
-        margin-top: 450px;
+        margin-top: 350px;
     }
 
     #se-col-6 {
@@ -72,7 +80,15 @@
     }
 
     #autole {
-        margin-bottom: 350px;
+        margin-bottom: 300px;
+    }
+
+    #berikan-top {
+        margin-top: 100px;
+    }
+
+    #berikan {
+        margin-bottom: 200px;
     }
 
     .page-header .motto h3::before {
