@@ -6392,7 +6392,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 .card .card-body .card-title3 {
     margin: 5px 0 0 0;
     margin: 0;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.5em;
     font-weight: 600;
     margin-bottom: 20px;
@@ -6404,7 +6404,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     color: #fff;
     padding-bottom: 15px;
     margin-top: -19px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .card .card-body .card-category~.card-title {
@@ -6413,10 +6413,10 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
 .card .card-text {
     font-size: 14px;
-    color: #6b6d6f;
+    color: #1b3c6b;
     padding-bottom: 15px;
     margin-top: -19px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .card h6 {
@@ -6866,7 +6866,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
 /* CSS SECTION1 */
 .card.home-card-rem {
-    width: 20rem;
+    width: 23rem;
 }
 
 .section1 h1 {
@@ -7032,10 +7032,19 @@ nav.navbar.navbar-expand-lg.fixed-top {
     bottom: 20px;
 }
 
+.card .card-body.card-body-data {
+    /* padding: 20px; */
+    margin: 0px !important;
+}
+
+#indicator-home {
+    display: none;
+}
+
 .container.carakerja {
     margin-bottom: 5px;
     padding: 5px;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1), 1px 1px 100px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1), 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
     padding-bottom: 20px;
 }
 
@@ -7046,8 +7055,8 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
 /* Section Data Terikini */
 .row.row-akumulasi {
-    margin-left: 214px;
-    margin-top: 163px;
+    margin-left: 210px;
+    margin-top: 182px;
 }
 
 #akumulasi-mobile {
@@ -7080,9 +7089,9 @@ nav.navbar.navbar-expand-lg.fixed-top {
     position: relative;
     right: 0px;
     z-index: 0;
-    top: 640px;
+    top: 595px;
     box-shadow: 0px 0px 23px rgba(13, 12, 10, 0.27);
-    left: 1056px;
+    left: 1059px;
 }
 
 /* SECTION-FOOTER */
@@ -7750,10 +7759,68 @@ nav.navbar.navbar-expand-lg.fixed-top {
     box-shadow: 0 3px 10px #525f7f57;
 }
 
+.dot {
+    height: 5px;
+    width: 5px;
+    margin-bottom: 5px;
+    margin-left: 220px;
+    background-color: #5d95c5;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    text-align: right !important;
+}
+
+.father-of-dot {
+    margin-top: 20px;
+}
+
+#asuransi-m10 {
+    margin-top: 100px;
+}
+
+.gradasi:after {
+    content: "";
+    display: block;
+    height: 80%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background: -moz-linear-gradient(top, #fff 0, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(top, #fff 0, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to bottom, rgb(28, 55, 93) 0, rgba(255, 255, 255, 0) 100%);
+}
+
+
+.card .card-title-seg2 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.card .card-par-seg2 {
+    font-size: 14px;
+    /* font-weight: 400; */
+    color: #1b3c6b;
+    line-height: 25px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
 .card-body.card-karir>img {
     width: 45%;
     position: relative;
     margin-top: -79px;
+}
+
+.card .card-text-com {
+    font-size: 14px;
+    color: #6b6d6f;
+    padding-bottom: 15px;
+    margin-top: -19px;
+    font-weight: 500;
 }
 
 .card-body.card-karir>h5 {
@@ -8137,6 +8204,96 @@ nav.navbar.navbar-expand-lg.fixed-top {
     cursor: pointer;
 }
 
+/* Testiomonial */
+
+.testimonial {
+    margin: 0 15px;
+}
+
+.testimonial .testimonial-profile {
+    float: left;
+    width: 27%;
+    padding-right: 15px;
+}
+
+.testimonial .testimonial-profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.testimonial .testimonial-date {
+    display: block;
+    text-align: center;
+    color: #a9a9a9;
+    text-indent: -2px;
+}
+
+.testimonial .testimonial-title {
+    margin-bottom: 0;
+}
+
+.testimonial .testimonial-title {
+    text-transform: capitalize;
+    color: #1b3c6b;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+.testimonial .testimonial-desc-lender {
+    text-transform: capitalize;
+    color: #f1b700;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: unset;
+    font-style: italic;
+}
+
+
+.testimonial .testimonial-desc {
+    text-transform: capitalize;
+    color: #86B8E5;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: unset;
+    font-style: italic;
+}
+
+.testimonial .testimonial-description {
+    font-size: 14px;
+    /* padding-left: 27%; */
+    line-height: 23px;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.owl-pagination {
+    margin-top: 40px;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: #1b3c6b;
+}
+
+.motto.row h3 {
+    font-size: 2.0rem;
+    font-weight: 600;
+}
+
 /* ////////////////////////////////////////////////////////////////////////// */
 
 
@@ -8392,7 +8549,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .section-gold {
-    background: url('../img/handphone.jpg');
+    background: url('../img/l-1226.png');
     width: 100%;
     height: 100%;
     color: #FFFFFF;
@@ -8401,7 +8558,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     margin-top: 105px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center center;
     background-size: cover;
 }
 
