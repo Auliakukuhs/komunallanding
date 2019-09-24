@@ -5873,7 +5873,8 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .carousel-indicators .active {
-    background-color: #f5593d;
+    background-color: #fff;
+    /* background-color: #f5593d; */
 }
 
 .page-carousel:hover .carousel-control.right,
