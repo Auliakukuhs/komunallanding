@@ -8291,7 +8291,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     background: #1b3c6b;
 }
 
-.motto.row h3 {
+#motto-row-h3 {
     font-size: 2.0rem;
     font-weight: 600;
 }

@@ -17,7 +17,7 @@
         display: flex;
     }
 
-    .motto.row h3 {
+    #motto-row-h3 {
         margin-bottom: 20px;
     }
 
@@ -132,7 +132,7 @@
     }
 
     #berikan {
-        margin-bottom: 200px;
+        margin-bottom: 50px;
     }
 
     .page-header .motto h3::before {
