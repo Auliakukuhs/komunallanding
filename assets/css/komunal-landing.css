@@ -1408,8 +1408,8 @@ fieldset[disabled] .btn-warning.active {
 }
 
 .btn-danger {
-    background-color: #98B825;
-    border-color: #98B825;
+    background-color: #e5b213;
+    border-color: #e5b213;
     color: #FFFFFF;
     opacity: 1;
     filter: alpha(opacity=100);
@@ -3031,6 +3031,7 @@ tr {
 
 .nav-pills .nav-link {
     border-radius: 0;
+    font-size: 16px
 }
 
 .pagination .page-link {
@@ -6344,47 +6345,48 @@ nav.navbar.navbar-expand-lg.fixed-top {
     font-size: 18px;
     line-height: 1.5em;
     font-weight: 500;
-    color : #6b6d6f;
+    color: #6b6d6f;
 }
 
 .card .card-body .card-pendanaan-title {
     margin: 5px 0 0 0;
     font-size: 14px;
     margin: 0;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.5em;
     font-weight: 600;
     color: #1b3c6b;
+    padding-top: 7px;
 }
 
 #card-pendanaan-1 {
-    width: 20rem;
+    width: 28rem;
     margin-left: -40px;
 }
 
 #card-pendanaan-2 {
-    width: 20rem;
+    width: 28rem;
 }
 
 #card-pendanaan-3 {
-    width: 20rem;
+    width: 28rem;
     margin-left: -80px
 }
 
 .card .card-pendanaan-text {
     font-size: 14px;
-    color: #6b6d6f;
+    color: #919191;
     padding-bottom: 15px;
     font-weight: 500;
     margin-top: 10px;
     padding: 0;
-    margin-left: 32px;
+    margin-left: 45px;
 }
 
 .card .card-body .card-title2 {
     margin: 5px 0 0 0;
     margin: 0;
-    font-size: 30px;
+    font-size: 31px;
     line-height: 1.5em;
     font-weight: 600;
     margin-bottom: 20px;
@@ -6402,7 +6404,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .card .card-text3 {
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     padding-bottom: 15px;
     margin-top: -19px;
@@ -6414,7 +6416,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .card .card-text {
-    font-size: 14px;
+    font-size: 16px;
     color: #1b3c6b;
     padding-bottom: 15px;
     margin-top: -19px;
@@ -6863,7 +6865,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     background: #9088D1;
     content: " ";
     position: absolute;
-    top: 210px;
+    top: 248px;
 }
 
 /* CSS SECTION1 */
@@ -6891,7 +6893,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .section1 h4 {
-    font-size: 20px;
+    font-size: 21px;
     color: #193b6d;
     padding-bottom: 10px;
     font-family: "Montserrat";
@@ -6905,7 +6907,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     font-family: "Montserrat";
     position: relative;
     font-weight: 500;
-    color: #6b6d6f;
+    color: #919191;
 }
 
 .section1 .icon-danger {
@@ -6921,7 +6923,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .section2 h2 {
-    font-size: 30px;
+    font-size: 31px;
     color: #193b6d;
     padding-bottom: 40px;
     font-family: "Montserrat";
@@ -6941,7 +6943,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .section2 h4 {
-    font-size: 20px;
+    font-size: 21px;
     color: #193b6d;
     padding-bottom: 10px;
     font-family: "Montserrat";
@@ -6951,11 +6953,11 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .section2 p {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Montserrat";
     position: relative;
     font-weight: 500;
-    color: #6b6d6f;
+    color: #919191;
 }
 
 .section.section2.text-center {
@@ -6997,12 +6999,12 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
 .info-desc-hp {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 30px
 }
 
 .info-title-hp {
-    font-size: 38px;
+    font-size: 31px;
     color: #fff;
     padding-bottom: 37px;
     font-family: "Montserrat";
@@ -7057,7 +7059,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
 /* Section Data Terikini */
 .row.row-akumulasi {
-    margin-left: 210px;
+    margin-left: 144px;
     margin-top: 182px;
 }
 
@@ -7071,15 +7073,15 @@ nav.navbar.navbar-expand-lg.fixed-top {
     background-color: #193b6d;
     right: -100px;
     z-index: 2;
-    top: 475px;
+    top: 482px;
     position: relative;
-    left: 379px;
+    left: 313px;
 }
 
 .card.card-foto {
     background-color: #F2B705;
     position: relative;
-    right: -289px;
+    right: -221px;
     z-index: 0;
     top: 401px;
     box-shadow: 0px 0px 23px rgba(13, 12, 10, 0.27);
@@ -7091,7 +7093,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     position: relative;
     right: 0px;
     z-index: 0;
-    top: 595px;
+    top: 613px;
     box-shadow: 0px 0px 23px rgba(13, 12, 10, 0.27);
     left: 1059px;
 }
@@ -7105,7 +7107,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 /* Section1: intro */
 
 .section-pendanaan h2 {
-    font-size: 30px;
+    font-size: 31px;
     color: #193b6d;
     padding-bottom: 40px;
     font-family: "Montserrat";
@@ -7165,8 +7167,9 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .title-pendanaan {
-    margin-top: 122px;
+    margin-top: 170px;
     font-size: 2.0rem;
+    font-weight: bold;
 }
 
 .col-md-3.mt-40 {
@@ -7190,7 +7193,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     vertical-align: top;
     border: none;
     font-weight: 500;
-    color: #6b6d6f;
+    color: #919191;
 }
 
 .table.table-sukubunga th {
@@ -7198,6 +7201,11 @@ nav.navbar.navbar-expand-lg.fixed-top {
     vertical-align: top;
     border: none;
     color: #193b6d;
+    font-size: 16px;
+}
+
+.btn-pendanaan {
+    text-transform: uppercase;
 }
 
 .form-control.form-dana {
@@ -7247,7 +7255,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .section-pinjaman h2 {
-    font-size: 30px;
+    font-size: 31px;
     color: #193b6d;
     padding-bottom: 40px;
     font-family: "Montserrat";
@@ -7275,6 +7283,24 @@ nav.navbar.navbar-expand-lg.fixed-top {
     font-weight: bold;
     margin: 0;
     margin-top: 10px;
+}
+
+.i-1 {
+    position: absolute;
+    left: 215px;
+    top: 125px;
+}
+
+.i-2 {
+    position: absolute;
+    left: 217px;
+    top: 27px;
+}
+
+.i-3 {
+    position: absolute;
+    left: 215px;
+    top: 125px;
 }
 
 .section-pinjaman p {
@@ -7315,8 +7341,8 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .card .card-peminjaman-text {
-    font-size: 14px;
-    color: #6b6d6f;
+    font-size: 16px;
+    color: #919191;
     padding-bottom: 15px;
     font-weight: 500;
     margin-top: 10px;
@@ -7452,7 +7478,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .section-bg-peminjaman {
-    background: url('../img/bg-peminjaman.jpg');
+    background: url('../img/bgpe.jpg');
     width: 100%;
     height: 100%;
     color: #FFFFFF;
@@ -7870,6 +7896,57 @@ nav.navbar.navbar-expand-lg.fixed-top {
     font-weight: 600;
 }
 
+/* LOADER 1 */
+.loader {
+    height: 50px;
+    transform-origin: bottom center;
+    animation: rotate 3s linear infinite;
+}
+
+.circle {
+    display: inline-block;
+    background-color: purple;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: grow 1.5s linear infinite;
+    margin: -10px;
+}
+
+.circle:nth-child(2) {
+    background-color: palevioletred;
+    animation-delay: 0.75s;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes grow {
+    50% {
+        transform: scale(1);
+    }
+}
+
+.komunal {
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .judul-job {
     font-weight: 600;
     color: #1b3c6b;
@@ -8240,7 +8317,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 .testimonial .testimonial-title {
     text-transform: capitalize;
     color: #1b3c6b;
-    font-size: 17px;
+    font-size: 16px;
     display: block;
     margin-bottom: 4px;
     font-weight: 600;

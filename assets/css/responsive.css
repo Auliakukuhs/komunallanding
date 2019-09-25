@@ -13,6 +13,10 @@
         padding-bottom: 0px;
     }
 
+    .hide-t-l {
+        display: none;
+    }
+
     #indicator-home {
         display: flex;
     }
@@ -319,7 +323,7 @@
     }
 
     .info-title-hp {
-        font-size: 25px;
+        font-size: 31px;
         margin-top: 22px;
     }
 
@@ -587,6 +591,10 @@
         display: none;
     }
 
+    .hide-t-l {
+        display: none;
+    }
+
     #indicator-home {
         display: flex;
     }
@@ -635,6 +643,10 @@
         content: " ";
         position: absolute;
         bottom: -10px;
+    }
+
+    .fas.fa-sync-alt {
+        color: white !important;
     }
 
     .page-header .motto h1::before {
@@ -821,7 +833,7 @@
     }
 
     .info-title-hp {
-        font-size: 25px;
+        font-size: 31px;
         margin-top: 22px;
     }
 
@@ -1083,6 +1095,11 @@
         display: none;
     }
 
+    .hide-t-l {
+        display: none;
+    }
+
+
     #indicator-home {
         display: flex;
     }
@@ -1339,7 +1356,7 @@
     }
 
     .info-title-hp {
-        font-size: 25px;
+        font-size: 31px;
         margin-top: 22px;
     }
 
