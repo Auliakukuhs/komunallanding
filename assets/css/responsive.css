@@ -33,6 +33,10 @@
         font-size: 1.4rem;
     }
 
+    .fas.fa-sync-alt, .fas.fa-shield-alt {
+        color: white !important;
+    }
+
     #partner img {
         width: 100%;
     }
@@ -511,7 +515,7 @@
     }
 
     .col-desc-career {
-        padding: 0px 20px;
+        padding: 10px 20px;
         text-align: justify;
         background-color: #1b3c6b;
         box-shadow: cornflowerblue;
@@ -602,6 +606,10 @@
     .carousel-control-prev,
     .carousel-control-next {
         display: none;
+    }
+
+    .fas.fa-sync-alt {
+        color: white !important;
     }
 
     .page-header .motto {
@@ -1201,7 +1209,7 @@
     #col-keuntungan-4 {
         flex: 0 0 40%;
         max-width: 40%;
-        margin-bottom: 30px;
+        margin-bottom: -120px;
     }
 
     #contact {

@@ -37,8 +37,9 @@
                 </a>
                 <div class="col-sm text-right">
 
-                    <span id="tkb-resp" class="pulse" data-toggle="modal" data-target="#loginModal">
-                        <b>TKB : 100%</b></span>
+                    <span id="tkb-resp" class="pulse" data-toggle="modal" data-target="#loginModal"
+                        style="font-weight: 600">
+                    </span>
                 </div>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
@@ -51,10 +52,11 @@
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="./index.html" class="nav-link" id="tkb" style="opacity: 10; ;color: #98B825;"
-                            data-toggle="tooltip" data-placement="top"
+                        <a href="./index.html" class="nav-link" id="tkb"
+                            style="opacity: 10; ;color: #98B825;font-weight: 600" data-toggle="tooltip"
+                            data-placement="top"
                             title="Tingkat Keberhasilan 90 atau disingkat TKB90 merupakan tingkat keberhasilan penyelenggara P2P Lending dalam memfasilitasi penyelesaian kewajiban pinjam meminjam antara peminjam kepada pemberi dana dalam jangka waktu sampai dengan 90 hari sejak jatuh tempo.">
-                            <b>TKB: 100%</b></a>
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a href="./index.html" class="nav-link navactive">Beranda</a>
@@ -381,7 +383,7 @@
                                     <img src="./assets/img/icon-82.png" alt="icon-09" style="max-width: 150%;">
                                 </div>
                                 <div class="col-md-9 align-self-center">
-                                    <h4 class="card-title3">14,52M</h4>
+                                    <h4 id="tot_pinjam" class="card-title3">-</h4>
                                     <p class="card-text3">Akumulasi Pinjaman Sejak Berdiri.</p>
                                 </div>
                             </div>
@@ -409,7 +411,7 @@
                                                 <img src="./assets/img/icon-82.png" alt="icon-09">
                                             </div>
                                             <div class="col-md-8 col-8 align-self-center" style="padding-left: 0px;">
-                                                <h4 class="card-title2" style="color: #fff">14,52M</h4>
+                                                <h4 id="total_resp" class="card-title2" style="color: #fff">-</h4>
                                                 <p class="card-text" style="color: #fff; font-weight: 600">Akumulasi
                                                     Pinjaman Sejak
                                                     Berdiri.</p>
@@ -429,14 +431,18 @@
                                             <div class="col-md-8 col-8 align-self-center" style="padding-left: 0px;">
                                                 <div class="row">
                                                     <div class="col-4 col-md-4 col-lg-4" style="padding-right: 0px;">
-                                                        <h4 class="card-title2">47</h4>
+                                                        <h4 id="all_bor" class="card-title2"></h4>
                                                     </div>
                                                     <div class="col-8 col-md-8 col-lg-8" style="padding-left: 0px;
                                                     padding-right: 0px;
                                                     margin-top: 5px;">
-                                                        <p style="font-weight: 600;font-size: 10px;color: silver;"><i>32
+                                                        <p id="all_bor_individu"
+                                                            style="font-weight: 600;font-size: 10px;color: silver; font-style: italic">
+                                                            <i>-
                                                                 Individu</i></p>
-                                                        <p style="font-weight: 600;font-size: 10px;color: silver;"><i>15
+                                                        <p id="all_bor_usaha"
+                                                            style="font-weight: 600;font-size: 10px;color: silver; font-style: italic">
+                                                            <i>-
                                                                 Badan Usaha</i></p>
                                                     </div>
                                                 </div>
@@ -457,14 +463,18 @@
                                             <div class="col-md-8 col-8 align-self-center" style="padding-left: 0px;">
                                                 <div class="row">
                                                     <div class="col-4 col-md-4 col-lg-4" style="padding-right: 0px;">
-                                                        <h4 class="card-title2">47</h4>
+                                                        <h4 id="active_bor" class="card-title2"></h4>
                                                     </div>
                                                     <div class="col-8 col-md-8 col-lg-8" style="padding-left: 0px;
                                                     padding-right: 0px;
                                                     margin-top: 5px;">
-                                                        <p style="font-weight: 600;font-size: 10px;color: silver;"><i>32
+                                                        <p id="active_bor_individu"
+                                                            style="font-weight: 600;font-size: 10px;color: silver; font-style: italic">
+                                                            <i>-
                                                                 Individu</i></p>
-                                                        <p style="font-weight: 600;font-size: 10px;color: silver;"><i>15
+                                                        <p id="active_bor_usaha"
+                                                            style="font-weight: 600;font-size: 10px;color: silver; font-style: italic">
+                                                            <i>-
                                                                 Badan Usaha</i></p>
                                                     </div>
                                                 </div>
@@ -483,7 +493,7 @@
                                                 <img src="./assets/img/icon-84.png" alt="icon-09">
                                             </div>
                                             <div class="col-md-8 col-8 align-self-center" style="padding-left: 0px;">
-                                                <h4 class="card-title2">24,52M</h4>
+                                                <h4 id="tot_pinjam_jalan" class="card-title2">-</h4>
                                                 <p class="card-text">Akumulasi Pinjaman Sepanjang Tahun Berjalan</p>
                                             </div>
                                         </div>
@@ -499,7 +509,7 @@
                                                 <img src="./assets/img/icon-09.png" alt="icon-09">
                                             </div>
                                             <div class="col-md-8 col-8 align-self-center" style="padding-left: 0px;">
-                                                <h4 class="card-title2">14,52M</h4>
+                                                <h4 id="outstand" class="card-title2">-</h4>
                                                 <p class="card-text">Total Outstanding Pinjaman</p>
                                             </div>
                                         </div>
@@ -906,12 +916,13 @@
             </div>
         </div>
     </footer>
-    
+
     <!--   Core JS Files   -->
     <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
     <script src="./assets/js/komunal.js" type="text/javascript"></script>
+    <script src="./assets/js/api.js" type="text/javascript"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js">
     </script>
     <script>
