@@ -31,6 +31,10 @@
 
     #fi-col-6 h3 {
         font-size: 1.4rem;
+        /* position: relative; */
+        /* top: 35px; */
+        margin-top: 20px;
+        /* font-style: italic; */
     }
 
     .fas.fa-sync-alt, .fas.fa-shield-alt {
@@ -58,7 +62,8 @@
     }
 
     #berikan-top h3 {
-        font-size: 1.5rem !important;
+        font-size: 1.4rem !important;
+        margin-top: 20px;
     }
 
     #se-col-6 .card .card-body {
@@ -459,7 +464,7 @@
         margin-bottom: 30px;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 2px 6px 26px #525f7f57;
+        box-shadow: 2px 6px 15px #525f7f30;
     }
 
     .column-1-4,
@@ -959,7 +964,7 @@
         margin-bottom: 30px;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 2px 6px 26px #525f7f57;
+        box-shadow: 2px 6px 15px #525f7f30;
     }
 
     .column-1-4,
@@ -1449,7 +1454,7 @@
         margin-bottom: 30px;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 2px 6px 26px #525f7f57;
+        box-shadow: 2px 6px 15px #525f7f30;
     }
 
     .column-1-4,

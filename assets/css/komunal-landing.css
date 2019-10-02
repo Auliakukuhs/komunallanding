@@ -123,6 +123,10 @@
     border-top-left-radius: 3px;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 .bootstrap-switch .bootstrap-switch-handle-off {
     text-indent: 6px;
 }
@@ -1430,8 +1434,8 @@ fieldset[disabled] .btn-warning.active {
     /* background-color: #f33816; */
     color: #FFFFFF;
     box-shadow: none;
-    background-color: #2CC41D;
-    border-color: #2CC41D;
+    background-color: #F28407;
+    border-color: #F28407;
 }
 
 .btn-danger .caret {
@@ -2464,7 +2468,7 @@ textarea.form-control {
 .content-collapse td,
 tr {
     font-weight: 500;
-    color: #6b6d6f;
+    color: #525f7f;
     font-size: 14px;
     line-height: 28px;
 }
@@ -4927,7 +4931,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .dropdown-menu .dropdown-item {
-    color: #66615b;
+    color: #525f7f;
     font-size: 14px;
     padding: 10px 45px 10px 15px;
     clear: both;
@@ -5834,6 +5838,44 @@ nav.navbar.navbar-expand-lg.fixed-top {
     opacity: 0;
 }
 
+.carousel-control-prev-icon {
+    background-image: url('../img/chevron-sign-left.svg');
+}
+
+.carousel-control-next-icon {
+    background-image: url('../img/chevron-sign-to-right.svg');
+}
+
+.line-1{
+    position: relative;
+    top: 15%;  
+    width: 15.7em;
+    margin: 0;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15.7em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+#uptownfunk{
+    fill: #fff;
+}
+
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
 .carousel-control .fa,
@@ -6409,6 +6451,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     padding-bottom: 15px;
     margin-top: -19px;
     font-weight: 600;
+    line-height: 27px;
 }
 
 .card .card-body .card-category~.card-title {
@@ -6421,6 +6464,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     padding-bottom: 15px;
     margin-top: -19px;
     font-weight: bold;
+    line-height: 27px;
 }
 
 .card h6 {
@@ -6850,14 +6894,14 @@ nav.navbar.navbar-expand-lg.fixed-top {
     margin-top: 120px;
 }
 
-.page-header .motto h1::before {
+/* .page-header .motto h1::before {
     height: 4px;
     width: 32px;
     background: #9088D1;
     content: " ";
     position: absolute;
     top: 165px;
-}
+} */
 
 .page-header .motto.pendana h1::before {
     height: 4px;
@@ -6908,6 +6952,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     position: relative;
     font-weight: 500;
     color: #919191;
+    line-height: 27px;
 }
 
 .section1 .icon-danger {
@@ -6957,7 +7002,8 @@ nav.navbar.navbar-expand-lg.fixed-top {
     font-family: "Montserrat";
     position: relative;
     font-weight: 500;
-    color: #919191;
+    color: #525f7f;
+    line-height: 27px;
 }
 
 .section.section2.text-center {
@@ -7000,7 +7046,9 @@ nav.navbar.navbar-expand-lg.fixed-top {
 .info-desc-hp {
     font-weight: 500;
     font-size: 16px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    line-height: 27px;
+    color: #fff;
 }
 
 .info-title-hp {
@@ -7195,7 +7243,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     vertical-align: top;
     border: none;
     font-weight: 500;
-    color: #919191;
+    color: #525f7f;
 }
 
 .table.table-sukubunga th {
@@ -7214,7 +7262,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     background-color: #FFFFFF;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    color: #66615b;
+    color: #525f7f;
     font-size: 16px;
     transition: background-color 0.3s ease 0s;
     padding-right: 0 !important;
@@ -7344,11 +7392,12 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
 .card .card-peminjaman-text {
     font-size: 16px;
-    color: #919191;
+    color: #525f7f;
     padding-bottom: 15px;
     font-weight: 500;
     margin-top: 10px;
     padding: 0;
+    line-height: 27px;
 }
 
 .section.section-jenis-pinjaman {
@@ -7405,10 +7454,17 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .grey-ul {
-    color: #6b6d6f;
+    color: #525f7f;
     font-weight: 500;
     font-size: 14px;
     padding: 5px;
+}
+
+.talk {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 5px;
+    font-weight: 500;
 }
 
 .row-profil {
@@ -7576,6 +7632,9 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
 .content-collapse.text-justify p {
     margin-bottom: 10px;
+    color: #525f7f;
+    font-weight: 500;
+    line-height: 27px;
 }
 
 /* -----PROFIL----- */
@@ -7645,6 +7704,8 @@ nav.navbar.navbar-expand-lg.fixed-top {
     text-align: justify;
     font-weight: 500;
     font-style: italic;
+    line-height: 27px;
+    color: #525f7f;
 }
 
 .lead h3 {
@@ -7691,6 +7752,9 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
 .row-tim .deskripsi-tim {
     font-weight: 400;
+    font-weight: 500;
+    color: #525f7f;
+    line-height: 27px;
 }
 
 .section.info-profil .filter::after {
@@ -7831,9 +7895,8 @@ nav.navbar.navbar-expand-lg.fixed-top {
 
 .card .card-par-seg2 {
     font-size: 14px;
-    /* font-weight: 400; */
     color: #1b3c6b;
-    line-height: 25px;
+    line-height: 27px;
     font-style: italic;
     font-weight: 500;
     margin-top: 10px;
@@ -7851,6 +7914,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     padding-bottom: 15px;
     margin-top: -19px;
     font-weight: 500;
+    line-height: 27px;
 }
 
 .card-body.card-karir>h5 {
@@ -7907,9 +7971,10 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .deskripsi-job {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 27px;
+    color: #525f7f;
 }
 
 .req-job {
@@ -8047,6 +8112,8 @@ nav.navbar.navbar-expand-lg.fixed-top {
     font-size: 15px;
     margin: 0;
     padding: 0;
+    color: #1b3c6b;
+    line-height: 27px;
 }
 
 .section-layanan {
@@ -8084,11 +8151,12 @@ nav.navbar.navbar-expand-lg.fixed-top {
 }
 
 .section-layanan p {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 27px;
     font-family: "Montserrat";
     position: relative;
     font-weight: 500;
-    color: #6b6d6f;
+    color: #525f7f;
 }
 
 .yellow {
@@ -8120,7 +8188,7 @@ nav.navbar.navbar-expand-lg.fixed-top {
     font-family: "Montserrat";
     position: relative;
     font-weight: 500;
-    color: #6b6d6f;
+    color: #525f7f;
     padding-right: 50px;
 }
 
@@ -8311,6 +8379,8 @@ nav.navbar.navbar-expand-lg.fixed-top {
     text-align: left;
     font-weight: 500;
     margin-top: inherit;
+    line-height: 27px;
+    color: #525f7f;
 }
 
 /* Testiomonial */
@@ -8383,10 +8453,11 @@ nav.navbar.navbar-expand-lg.fixed-top {
 .testimonial .testimonial-description {
     font-size: 14px;
     /* padding-left: 27%; */
-    line-height: 23px;
+    line-height: 27px;
     text-align: left;
     font-weight: 500;
     margin-top: 50px;
+    color: #525f7f;
 }
 
 .owl-pagination {
@@ -8403,6 +8474,128 @@ nav.navbar.navbar-expand-lg.fixed-top {
     font-weight: 600;
 }
 
+/* PELUANG PENDANAAN */
+.card-primary {
+    background-color: #1b3c6b;
+}
+
+.card-score {
+    border-radius: 5px;
+    box-shadow: 0 6px 10px -4px #525f7f4b;
+    background-color: #1b3c6b;
+    color: black;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+    -webkit-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -webkit-transition: box-shadow 200ms ease, -webkit-transform 300ms cubic-bezier(0.34, 2, 0.6, 1);
+    transition: box-shadow 200ms ease, -webkit-transform 300ms cubic-bezier(0.34, 2, 0.6, 1);
+    transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease, -webkit-transform 300ms cubic-bezier(0.34, 2, 0.6, 1);
+    transition: background-color .5s ease-out;
+    transition: all .2s linear;
+}
+
+.card-score:hover {
+    box-shadow: 2px 8px 45px #525f7f4b;
+    transform: translate3D(0, -2px, 0);
+    background-color: #1E4378;
+  }
+
+.card-content {
+    /* padding: 18px 36px 36px 36px; */
+    padding: 5px 20px 5px 20px;
+}
+
+#populer {
+    margin: -37px 0px 0px -73px;
+}
+
+.ribbon {
+    width: 18%;
+    position: absolute;
+}
+
+.price-nominal-white {
+    font-weight: 500 !important;
+}
+
+.price-nominal-white.dana {
+    color:#e6b313;
+    width: 100%;
+}
+
+.row-progress {
+    padding-bottom: 20px;
+    width: 104%;
+    margin-left: -16px;
+    margin-top: 8px;
+}
+
+.progress {
+    background-color: #112f5b;
+    border-radius: 10px;
+    box-shadow: none;
+    height: 9px;
+}
+
+.progress {
+    display: -webkit-box;
+    display: flex;
+    overflow: hidden;
+    font-size: .75rem;
+}
+
+.progress-bar {
+    background-color: #1b3c6b;
+    border-radius: 10px;
+}
+
+.bg-warning {
+    background-color: #ffc107!important;
+}
+
+.progress-bar {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #ffc107;
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+.price-label, .price-label-white {
+    color: #c2c2c2 !important;
+    font-size: 12px !important;
+}
+
+.price-label-white {
+    color: white;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.price-nominal-white {
+    color: white;
+    font-weight: 600 !important;
+    font-size: 14px;
+}
+
+.status-active{
+    font-weight: 600;
+    font-style: italic;
+    color: #e6b313;
+}
+/* END OF PELUANG PENDANAAN */
 /* ////////////////////////////////////////////////////////////////////////// */
 
 

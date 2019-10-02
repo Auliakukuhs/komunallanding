@@ -31,6 +31,7 @@ request.onload = function () {
     active_b_usa.textContent = obj.data.statistik.active_borrower_perusahaan + " Badan Usaha";
     active_b.textContent = parseInt(obj.data.statistik.active_borrower_individu) + parseInt(obj.data.statistik.active_borrower_perusahaan);
 
+    // Simplify currency
     function fnum(x) {
         if (isNaN(x)) return x;
 
@@ -55,7 +56,6 @@ request.onload = function () {
 
         return "1T+";
     }
-
     // Total Pinjaman Berjalan
     var total_pinjaman_berjalan = document.getElementById("tot_pinjam_jalan");
     const totalJalan = fnum(obj.data.statistik.total_pinjaman_berjalan);
@@ -72,7 +72,6 @@ request.onload = function () {
     // Oustanding
     var standing_value = document.getElementById("outstand");
     const outstand = fnum(obj.data.statistik.outstanding);
-    console.log(outstand);
     standing_value.textContent = outstand;
 };
 
