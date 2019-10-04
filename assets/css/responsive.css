@@ -36,6 +36,10 @@
         margin-top: 20px;
         /* font-style: italic; */
     }
+    
+    .deskripsi-job {
+        color: white;
+    }
 
     .fas.fa-sync-alt, .fas.fa-shield-alt {
         color: white !important;
@@ -608,14 +612,18 @@
         display: flex;
     }
 
+    /* .deskripsi-job {
+        color: white;
+    } */
+
     .carousel-control-prev,
     .carousel-control-next {
         display: none;
     }
 
-    .fas.fa-sync-alt {
+    /* .fas.fa-sync-alt {
         color: white !important;
-    }
+    } */
 
     .page-header .motto {
         margin-top: 0px;
@@ -658,9 +666,9 @@
         bottom: -10px;
     }
 
-    .fas.fa-sync-alt {
+    /* .fas.fa-sync-alt {
         color: white !important;
-    }
+    } */
 
     .page-header .motto h1::before {
         display: none;
