@@ -38,8 +38,8 @@
     }
 
     #frameyt iframe {
-        width:410px !important;
-        height: 350px !important;
+        width: auto;
+        height: 230px !important;
     }
     
     .deskripsi-job {
